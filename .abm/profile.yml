@@ -5,5 +5,5 @@ europe:
   url: https://usegalaxy.eu
   key: your_api_key
 australia:
-  url: https://usegalaxy.org
+  url: https://usegalaxy.org.au
   key: your_api_key
