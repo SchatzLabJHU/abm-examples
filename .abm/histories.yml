@@ -1,0 +1,3 @@
+variant-2g: https://benchmarking-inputs.s3.amazonaws.com/Variant/Variant-calling-inputs---2GB.rocrate.zip
+variant-5g: https://benchmarking-inputs.s3.amazonaws.com/Variant/Variant-calling-inputs---5GB.rocrate.zip
+variant-10g: https://benchmarking-inputs.s3.amazonaws.com/Variant/Variant-calling-inputs---10GB.rocrate.zip

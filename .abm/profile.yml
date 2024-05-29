@@ -1,0 +1,9 @@
+usa:
+  url: https://usegalaxy.org
+  key: your_api_key
+europe:
+  url: https://usegalaxy.eu
+  key: your_api_key
+australia:
+  url: https://usegalaxy.org
+  key: your_api_key

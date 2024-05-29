@@ -1,0 +1,17 @@
+# Variant calling experiments. Oceanian vs European cloud instances.
+name: Variant-Analyses
+# The number of times each benchmark will be executed.
+runs: 3
+# The benchmarks that will be run as part of the experiment. Each benchmark
+# configuration defines the Galaxy workflow and input datasets to be used.
+benchmark_confs:
+  - benchmarks/vc.yml
+# The Galaxy instances, as defined in the $HOME/.abm/profile.yml file.
+cloud:
+  - europe
+  - australia
+# The Galaxy Helm chart configuration. This will be ignored since our user account
+# doesn't have authorization to deploy Helm charts to the public Galaxy servers.
+galaxy:
+  namespace: galaxy
+  chart: anvil/galaxykubeman
