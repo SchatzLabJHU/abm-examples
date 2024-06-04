@@ -1,0 +1,15 @@
+name: CI with ABM
+
+on:
+  workflow_dispatch:
+
+jobs:
+  # This workflow contains a single job called "build"
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: SchatzLabJHU/abm-action@dev
+        with:
+          org-api-key: ${{ secrets.ORG_API_KEY }}
+          
