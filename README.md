@@ -6,8 +6,8 @@ These are the examples used in the ABM paper. This is a work in progress and wil
 
 1. Clone this repository
 ```bash
-git clone https://github.com/ksuderman/abm-paper-examples.git
-cd abm-paper-examples
+git clone https://github.com/SchatzLabJHU/abm-examples.git
+cd abm-examples
 ```
 2. Install ABM
 ```bash
@@ -28,9 +28,10 @@ done
 ```bash
 abm experiment run experiments/vc.yml
 ```
-6. Wait for the experiment to finish.  This will take a while.
-7. View the results
+6. Wait for the experiment to finish.  This will take approximately 15 hours.
+7. View the results.
 ```bash
 abm experiment summarize metrics/experiment name
 ```
+**NOTE**: The European and Australian servers do not currently have metrics installed so the `summarize` command will not generate any results.  
 
