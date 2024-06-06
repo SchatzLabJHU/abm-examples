@@ -8,10 +8,11 @@ benchmark_confs:
   - benchmarks/vc.yml
 # The Galaxy instances, as defined in the $HOME/.abm/profile.yml file.
 cloud:
+  - usa
   - europe
   - australia
 # The Galaxy Helm chart configuration. This will be ignored since our user account
 # doesn't have authorization to deploy Helm charts to the public Galaxy servers.
-galaxy:
-  namespace: galaxy
-  chart: anvil/galaxykubeman
+#galaxy:
+#  namespace: galaxy
+#  chart: anvil/galaxykubeman

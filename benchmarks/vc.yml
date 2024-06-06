@@ -1,11 +1,11 @@
 - output_history_base_name: Variant-Calling
   workflow_id: Generic variation analysis on WGS PE data
   runs:
-  - history_name: 2GB
+  - history_name: Example
     inputs:
     - name: Paired Collection
-      collection: Subsample of reads from SRR24043307
+      collection: ERR3485802
     - name: GenBank genome
-      dataset_id: GRCh38.p14.gbff.gz
+      dataset_id: genome.genbank
     - name: Name for genome database
       value: h38
